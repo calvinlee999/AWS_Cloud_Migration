@@ -13,6 +13,41 @@ A comprehensive guide covering AWS migration tools, services, and best practices
 - Best practices and KPIs
 - Step-by-step getting started guide
 
+### [AWS Migration Reference Architecture](./AWS_Migration_Reference_Architecture.md)
+Visual reference architectures and diagrams for AWS cloud migration, featuring:
+- High-level migration architecture frameworks
+- Complete migration ecosystem diagrams with all AWS services
+- Network architecture (Landing Zone, Transit Gateway, VPCs)
+- Security architecture with multi-layer controls
+- Data migration patterns (DMS, DataSync, Snow Family)
+- Application migration workflows (MGN, containers)
+- Disaster recovery architectures
+- All diagrams use Mermaid for clear, maintainable visualization
+
+### [AWS Migration Sequence Diagrams](./AWS_Migration_Sequence_Diagrams.md)
+Step-by-step workflow diagrams covering the complete migration journey:
+- Assessment phase: Portfolio discovery, dependency mapping, MRA
+- Mobilize phase: Landing Zone setup, wave planning, team training
+- Migration phase: Server, database, and container migrations
+- Data migration: Online (DataSync) and offline (Snowball) transfers
+- Cutover procedures: Production cutover and rollback processes
+- Optimization: Post-migration resource optimization
+- All sequences use Mermaid diagrams for clear visualization
+
+### [AWS Migration Best Practices Guide](./AWS_Migration_Best_Practices.md)
+Comprehensive best practices for every phase of AWS migration:
+- Thorough assessment methodologies and discovery best practices
+- Wave planning and prioritization frameworks
+- Readiness and skill-building strategies
+- The 7 Rs migration strategies with detailed guidance
+- Migration execution best practices and runbook templates
+- Continuous monitoring and optimization approaches
+- Automation and Infrastructure as Code patterns
+- Dependency management strategies
+- Communication and stakeholder management
+- Security, compliance, and cost management
+- Amazon Q integration throughout the migration journey
+
 ### [Chatham Financial - Director of Platform Engineering](./Chatham_Financial_Director_Platform_Engineering.md)
 A detailed role description for the Director of Platform Engineering position at Chatham Financial, including:
 - Strategic responsibilities and key accountabilities
@@ -34,7 +69,10 @@ This repository serves as a centralized knowledge base for:
 
 | Topic | Document | Description |
 |-------|----------|-------------|
-| AWS Migration | [Overview](./AWS_Cloud_Migration_Overview.md) | Complete guide to AWS migration tools and services |
+| AWS Migration Overview | [Overview](./AWS_Cloud_Migration_Overview.md) | Complete guide to AWS migration tools and services |
+| Reference Architecture | [Architecture Diagrams](./AWS_Migration_Reference_Architecture.md) | Visual reference architectures with Mermaid diagrams |
+| Sequence Diagrams | [Workflow Diagrams](./AWS_Migration_Sequence_Diagrams.md) | Step-by-step migration workflow visualizations |
+| Best Practices Guide | [Best Practices](./AWS_Migration_Best_Practices.md) | Comprehensive migration best practices and guidance |
 | Leadership Role | [Director of Platform Engineering](./Chatham_Financial_Director_Platform_Engineering.md) | Platform engineering leadership position details |
 
 ## 🔗 Related Resources
@@ -52,10 +90,13 @@ This repository serves as a centralized knowledge base for:
 
 ## 📝 Repository Structure
 
-```
+```text
 AWS_Cloud_Migration/
 ├── README.md                                          # This file
 ├── AWS_Cloud_Migration_Overview.md                    # AWS migration guide
+├── AWS_Migration_Reference_Architecture.md            # Visual architecture diagrams
+├── AWS_Migration_Sequence_Diagrams.md                 # Step-by-step workflow diagrams
+├── AWS_Migration_Best_Practices.md                    # Comprehensive best practices guide
 └── Chatham_Financial_Director_Platform_Engineering.md # Role description
 ```
 
